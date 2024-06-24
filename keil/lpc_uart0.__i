@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "lpc_uart0.o" --omf_browse "lpc_uart0.crf" --depend "lpc_uart0.d" "LPC_UART0.c"

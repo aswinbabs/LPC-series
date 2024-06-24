@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "lpc_myinterrupt_non-vectoredirq.o" --omf_browse "lpc_myinterrupt_non-vectoredirq.crf" --depend "lpc_myinterrupt_non-vectoredirq.d" "LPC_MYINTERRUPT_NON-VECTOREDIRQ.c"

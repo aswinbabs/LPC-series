@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "lpc_hw_buttonxleds.o" --omf_browse "lpc_hw_buttonxleds.crf" --depend "lpc_hw_buttonxleds.d" "Hardware\LPC_HW_BUTTONxLEDs.c"

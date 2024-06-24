@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "lpc_adc_90triangle.c.o" --omf_browse "lpc_adc_90triangle.c.crf" --depend "lpc_adc_90triangle.c.d" "LPC_ADC_90TRIANGLE.c.c"

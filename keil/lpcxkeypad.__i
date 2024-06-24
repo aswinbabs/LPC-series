@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "lpcxkeypad.o" --omf_browse "lpcxkeypad.crf" --depend "lpcxkeypad.d" "LPCxKEYPAD.c"

@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "lpc_hw_buttonxleds.o" --strict --scatter "LPC21.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LPC21.map" -o "LPC21.axf"
