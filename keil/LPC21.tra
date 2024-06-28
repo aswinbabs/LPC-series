@@ -2,16 +2,16 @@
 ### Preparing for ADS-LD.
 ### Creating ADS-LD Command Line
 ### List of Objects: adding '"startup.o"'
-### List of Objects: adding '"lpc_hw_buttonxleds.o"'
+### List of Objects: adding '"lpc_hw_interrupt.o"'
 ### ADS-LD Command completed:
---device DARMP "startup.o" "lpc_hw_buttonxleds.o" --strict --scatter "LPC21.sct" 
+--device DARMP "startup.o" "lpc_hw_interrupt.o" --strict --scatter "LPC21.sct" 
 --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
  --list ".\LPC21.map" -o "LPC21.axf"### Preparing Environment (PrepEnvAds)
 ### ADS-LD Output File: 'LPC21.axf'
 ### ADS-LD Command File: 'LPC21.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'LPC21.lnp', Handle=0x0000086C
+### Creating CmdFile 'LPC21.lnp', Handle=0x00000A48
 ### Writing '.lnp' file
 ### ADS-LD Command file 'LPC21.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

@@ -101,7 +101,7 @@ VPBDIV          EQU     0xE01FC100      ; VPBDIV Address
 ;//               <1=> XCLK Pin = CPU Clock
 ;//               <2=> XCLK Pin = CPU Clock / 2
 ;// </e>
-VPBDIV_SETUP    EQU     0
+VPBDIV_SETUP    EQU     1
 VPBDIV_Val      EQU     0x00000000
 
 
@@ -145,7 +145,7 @@ MAMTIM_OFS      EQU     0x04            ; MAM Timing Offset
 ;//               <4=> 4         <5=> 5   <6=> 6   <7=> 7
 ;//               <i> Fetch Cycles
 ;// </e>
-MAM_SETUP       EQU     1
+MAM_SETUP       EQU     0
 MAMCR_Val       EQU     0x00000002
 MAMTIM_Val      EQU     0x00000004
 

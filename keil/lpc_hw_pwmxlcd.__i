@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "lpc_hw_pwmxlcd.o" --omf_browse "lpc_hw_pwmxlcd.crf" --depend "lpc_hw_pwmxlcd.d" "Hardware\LPC_HW_PWMxLCD.c"
